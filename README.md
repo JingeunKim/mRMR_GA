@@ -2,6 +2,12 @@
 
 This repository contains the code for the research paper titled "A Study on the Effectiveness of Feature Selection considering mRMR across Different Datasets".
 
+# Abstract
+Rapid advancements in computer technology have led to the generation of large amounts of data, which have degraded machine learning performance due to high dimensionality and irrelevant data. Conventional feature selection methods select a feature subset that satisfies minimum redundancy and maximum relevance (mRMR). In this study, we discuss the performance of the feature selection method considering mRMR and the method that considers only MR using GAs (mRMR_GA and MR_GA) for various datasets with different characteristics and different numbers of features to explore the efficacy of minimum redundancy (mR). First, we analyze the performance of mRMR_GA and MR_GA, comparing them with other feature selection methods to explore the impact of mR. Second, we investigate the effectiveness of mRMR_GA and MR_GA using various datasets with diverse dimensions from 9 to 17,536. For our experiments, we used four high-dimensional datasets and five low-dimensional datasets. After applying the feature selection methods, we classified the dataset using extreme gradient boosting (XGBoost), deep neural network (DNN), decision tree (DT), support vector machine (SVM), and k-nearest neighbor (KNN). We evaluated the models based on accuracy, F1 score, and time cost. The experiments demonstrated that, the higher the dimension, the more effectively mRMR_GA improved the performance of machine learning over MR_GA. Additionally, we found that the effectiveness was more pronounced when the number of selected features is relatively small compared to the total number of features.
+
+
+
+
 ## Usage 
 ```
 python ../main.py\
