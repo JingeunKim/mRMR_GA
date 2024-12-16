@@ -7,7 +7,7 @@ Rapid advancements in computer technology have led to the generation of large am
 
 
 # Datasets
-Datasets after various feature selection methods: [Google Drive](https://drive.google.com/drive/folders/11mj-tb_E3LN0hfbmwqyOnHv03AxCxnCN?usp=drive_link)
+Datasets after applying various feature selection methods: [Google Drive](https://drive.google.com/drive/folders/11mj-tb_E3LN0hfbmwqyOnHv03AxCxnCN?usp=drive_link)
 
 
 ## Usage 
